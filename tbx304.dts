@@ -1,0 +1,17 @@
+/dts-v1/;
+
+#include "common/fragments/include-qcom.dtsi"
+#include "common/fragments/delete-msm89x7-camera-sensor-qrd.dtsi"
+#include "common/fragments/delete-msm8937-default-mdss-panels.dtsi"
+
+#include "common/android.dtsi"
+
+#include "tbx304/tbx304.dtsi"
+
+/* From stock msm8917-pmi8937-qrd-sku5.dts */
+/ {
+	model = "Qualcomm Technologies, Inc. MSM8917-PMI8937 QRD SKU5";
+	compatible = "qcom,msm8917-qrd-sku5", "qcom,msm8917-qrd",
+		   "qcom,msm8917", "qcom,qrd";
+	qcom,board-id = <0x1000b 0>;
+};

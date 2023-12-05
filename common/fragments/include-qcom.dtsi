@@ -1,0 +1,10 @@
+/* FIXME comments */
+#include "qcom/msm8917.dtsi"
+#include "qcom/msm8917-pmi8937.dtsi"
+
+/* msm-4.9 */
+#include "qcom/msm8917-audio.dtsi"
+
+/* FIXME comments */
+#include "qcom/msm8917-qrd.dtsi"
+#include "qcom/msm8937-mdss-panels.dtsi"
